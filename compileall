@@ -1,0 +1,20 @@
+#!/bin/bash
+#---------------------------------------------------------------------
+# AUTHOR
+#	Written by Kyle Wollman (wollmank@oregonstate.edu)
+# DATE
+#	03/17/2018
+# CLASS
+#	CS344 400 W2018
+# DESCRIPTION
+#	Program 4 - compliation script
+#---------------------------------------------------------------------
+gcc  -g -o otp_enc_d otp_enc_d.c
+
+gcc  -g -o otp_enc otp_enc.c
+
+gcc  -g -o otp_dec_d otp_dec_d.c
+
+gcc  -g -o otp_dec otp_dec.c
+
+gcc  -g -o keygen keygen.c
